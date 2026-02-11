@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Intelligence - Indian Job Market Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>🎯 Career Intelligence</h1>
+                <p class="tagline">AI-Powered Career Analysis for India</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Input Form Section -->
+            <section id="input-section" class="card">
+                <h2>Analyze Your Career Profile</h2>
+                <p class="subtitle">Get personalized insights based on Indian job market data</p>
+                
+                <form id="career-form">
+                    <!-- Job Role Selection -->
+                    <div class="form-group">
+                        <label for="job-role">Target Job Role *</label>
+                        <select id="job-role" required>
+                            <option value="">Select a role...</option>
+                            <option value="Data Analyst">Data Analyst</option>
+                            <option value="Software Engineer">Software Engineer</option>
+                            <option value="Product Manager">Product Manager</option>
+                            <option value="Digital Marketing Specialist">Digital Marketing Specialist</option>
+                            <option value="Business Analyst">Business Analyst</option>
+                        </select>
+                    </div>
+
+                    <!-- Skills Input -->
+                    <div class="form-group">
+                        <label>Your Skills & Proficiency *</label>
+                        <div id="skills-container">
+                            <div class="skill-input-row">
+                                <input type="text" class="skill-name" placeholder="Skill name (e.g., Python)" required>
+                                <select class="skill-level" required>
+                                    <option value="">Level...</option>
+                                    <option value="beginner">Beginner</option>
+                                    <option value="intermediate">Intermediate</option>
+                                    <option value="advanced">Advanced</option>
+                                    <option value="expert">Expert</option>
+                                </select>
+                                <button type="button" class="btn-remove" onclick="removeSkill(this)">×</button>
+                            </div>
+                        </div>
+                        <button type="button" class="btn-secondary" onclick="addSkill()">+ Add Skill</button>
+                    </div>
+
+                    <!-- Experience -->
+                    <div class="form-group">
+                        <label for="experience">Professional Experience *</label>
+                        <select id="experience" required>
+                            <option value="">Select experience...</option>
+                            <option value="fresher">Fresher (0 years)</option>
+                            <option value="1-2">1-2 years</option>
+                            <option value="3-5">3-5 years</option>
+                            <option value="5+">5+ years</option>
+                        </select>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="form-group">
+                        <label for="education">Highest Education *</label>
+                        <select id="education" required>
+                            <option value="">Select education...</option>
+                            <option value="diploma">Diploma/Certificate</option>
+                            <option value="bachelors">Bachelor's Degree</option>
+                            <option value="masters">Master's Degree</option>
+                            <option value="phd">PhD</option>
+                        </select>
+                    </div>
+
+                    <!-- Location -->
+                    <div class="form-group">
+                        <label for="location">Target Location *</label>
+                        <select id="location" required>
+                            <option value="">Select location...</option>
+                            <option value="tier1">Tier 1 Cities (Mumbai, Delhi, Bangalore, Hyderabad, Chennai, Pune)</option>
+                            <option value="tier2">Tier 2 Cities (Ahmedabad, Jaipur, Kolkata, Chandigarh, Kochi)</option>
+                            <option value="tier3">Tier 3 Cities or Small Towns</option>
+                            <option value="remote">Remote/Work from Home</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Analyze My Profile</button>
+                </form>
+            </section>
+
+            <!-- Loading Spinner -->
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Analyzing your profile...</p>
+            </div>
+
+            <!-- Results Section -->
+            <section id="results-section" class="hidden">
+                <!-- Job Fit Score -->
+                <div class="card score-card">
+                    <h2>Your Job Fit Score</h2>
+                    <div class="score-display">
+                        <div class="score-circle" id="score-circle">
+                            <span id="score-value">0</span>%
+                        </div>
+                        <p id="score-interpretation" class="score-text"></p>
+                    </div>
+                </div>
+
+                <!-- Salary Estimate -->
+                <div class="card">
+                    <h2>💰 Estimated Salary Range</h2>
+                    <div id="salary-info"></div>
+                </div>
+
+                <!-- Strengths -->
+                <div class="card">
+                    <h2>✅ Your Strengths</h2>
+                    <div id="strengths-list"></div>
+                </div>
+
+                <!-- Skill Gaps -->
+                <div class="card">
+                    <h2>⚠️ Skill Gaps to Address</h2>
+                    <div id="gaps-list"></div>
+                </div>
+
+                <!-- Recommendations -->
+                <div class="card">
+                    <h2>🚀 Personalized Recommendations</h2>
+                    <div id="recommendations-content"></div>
+                </div>
+
+                <!-- Reset Button -->
+                <button class="btn-secondary" onclick="resetForm()">Analyze Another Profile</button>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p><strong>Disclaimer:</strong> All predictions are estimates based on current Indian job market trends. 
+            Actual outcomes may vary based on company, industry, interview performance, and market conditions.</p>
+            <p class="copyright">© 2025 Career Intelligence | Made for Indian Job Seekers</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

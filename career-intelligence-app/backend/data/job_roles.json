@@ -1,0 +1,239 @@
+{
+  "Data Analyst": {
+    "description": "Analyzes data to derive insights and support business decision-making",
+    "required_skills": {
+      "SQL": {
+        "importance": 0.95,
+        "min_level": "advanced",
+        "note": "SQL is the most critical skill - must be able to write complex queries with JOINs, window functions, and CTEs"
+      },
+      "Excel": {
+        "importance": 0.85,
+        "min_level": "advanced",
+        "note": "Advanced Excel including pivot tables, VLOOKUP, macros, and data visualization"
+      },
+      "Python": {
+        "importance": 0.75,
+        "min_level": "intermediate",
+        "note": "Pandas, NumPy for data manipulation; matplotlib/seaborn for visualization"
+      },
+      "Power BI": {
+        "importance": 0.80,
+        "min_level": "intermediate",
+        "note": "Create interactive dashboards, understand DAX, data modeling"
+      },
+      "Statistics": {
+        "importance": 0.70,
+        "min_level": "intermediate",
+        "note": "Descriptive statistics, hypothesis testing, regression analysis"
+      },
+      "Tableau": {
+        "importance": 0.65,
+        "min_level": "beginner",
+        "note": "Alternative to Power BI - knowing one visualization tool is essential"
+      },
+      "Data Cleaning": {
+        "importance": 0.75,
+        "min_level": "intermediate",
+        "note": "Handle missing data, outliers, data transformation"
+      }
+    },
+    "certifications": [
+      {
+        "name": "Google Data Analytics Professional Certificate",
+        "provider": "Coursera",
+        "cost": "₹3,000-5,000",
+        "duration": "6 months",
+        "value": "High - well recognized in Indian market"
+      },
+      {
+        "name": "Microsoft Power BI Data Analyst (PL-300)",
+        "provider": "Microsoft",
+        "cost": "₹4,000-6,000",
+        "duration": "3-4 months prep",
+        "value": "High - industry standard"
+      }
+    ]
+  },
+  "Software Engineer": {
+    "description": "Designs, develops, and maintains software applications",
+    "required_skills": {
+      "Programming Languages": {
+        "importance": 0.95,
+        "min_level": "advanced",
+        "note": "Proficiency in at least 2 languages (Java, Python, JavaScript, C++, etc.)"
+      },
+      "Data Structures & Algorithms": {
+        "importance": 0.90,
+        "min_level": "advanced",
+        "note": "Essential for technical interviews and efficient code"
+      },
+      "Database": {
+        "importance": 0.80,
+        "min_level": "intermediate",
+        "note": "SQL and NoSQL databases (MongoDB, PostgreSQL, MySQL)"
+      },
+      "Git/Version Control": {
+        "importance": 0.85,
+        "min_level": "intermediate",
+        "note": "GitHub, GitLab - collaborative development essential"
+      },
+      "Web Development": {
+        "importance": 0.75,
+        "min_level": "intermediate",
+        "note": "Frontend (React, Angular) or Backend (Node.js, Django, Spring)"
+      },
+      "System Design": {
+        "importance": 0.70,
+        "min_level": "beginner",
+        "note": "Understanding of scalable architecture (more important for 3+ years exp)"
+      },
+      "Testing": {
+        "importance": 0.65,
+        "min_level": "intermediate",
+        "note": "Unit testing, integration testing, debugging"
+      }
+    },
+    "certifications": [
+      {
+        "name": "AWS Certified Developer",
+        "provider": "Amazon",
+        "cost": "₹12,000-15,000",
+        "duration": "3-4 months",
+        "value": "High for cloud-based roles"
+      }
+    ]
+  },
+  "Product Manager": {
+    "description": "Defines product strategy, roadmap, and works with cross-functional teams",
+    "required_skills": {
+      "Product Strategy": {
+        "importance": 0.90,
+        "min_level": "intermediate",
+        "note": "Market analysis, competitive research, product positioning"
+      },
+      "Analytics": {
+        "importance": 0.85,
+        "min_level": "intermediate",
+        "note": "SQL, Excel, data-driven decision making"
+      },
+      "Communication": {
+        "importance": 0.95,
+        "min_level": "advanced",
+        "note": "Stakeholder management, presentations, documentation"
+      },
+      "User Research": {
+        "importance": 0.80,
+        "min_level": "intermediate",
+        "note": "User interviews, surveys, usability testing"
+      },
+      "Technical Knowledge": {
+        "importance": 0.70,
+        "min_level": "beginner",
+        "note": "Understanding of software development, APIs, basic tech concepts"
+      },
+      "Project Management": {
+        "importance": 0.75,
+        "min_level": "intermediate",
+        "note": "Agile/Scrum, roadmap planning, prioritization"
+      },
+      "Design Thinking": {
+        "importance": 0.70,
+        "min_level": "intermediate",
+        "note": "Wireframing, prototyping, UX principles"
+      }
+    },
+    "certifications": [
+      {
+        "name": "Product Management Certificate",
+        "provider": "Product School",
+        "cost": "₹50,000-1,00,000",
+        "duration": "8-12 weeks",
+        "value": "Medium - experience matters more"
+      }
+    ]
+  },
+  "Digital Marketing Specialist": {
+    "description": "Plans and executes digital marketing campaigns across various channels",
+    "required_skills": {
+      "SEO/SEM": {
+        "importance": 0.85,
+        "min_level": "intermediate",
+        "note": "Search engine optimization and marketing"
+      },
+      "Google Analytics": {
+        "importance": 0.90,
+        "min_level": "advanced",
+        "note": "Track and analyze campaign performance"
+      },
+      "Social Media Marketing": {
+        "importance": 0.80,
+        "min_level": "intermediate",
+        "note": "Facebook Ads, Instagram, LinkedIn campaigns"
+      },
+      "Content Marketing": {
+        "importance": 0.75,
+        "min_level": "intermediate",
+        "note": "Content strategy, copywriting, storytelling"
+      },
+      "Email Marketing": {
+        "importance": 0.70,
+        "min_level": "intermediate",
+        "note": "Campaign design, automation, A/B testing"
+      }
+    },
+    "certifications": [
+      {
+        "name": "Google Digital Marketing Certificate",
+        "provider": "Google",
+        "cost": "Free",
+        "duration": "40 hours",
+        "value": "High - industry recognized"
+      }
+    ]
+  },
+  "Business Analyst": {
+    "description": "Bridges business needs and technical solutions through data analysis",
+    "required_skills": {
+      "SQL": {
+        "importance": 0.85,
+        "min_level": "intermediate",
+        "note": "Query databases for business insights"
+      },
+      "Excel": {
+        "importance": 0.90,
+        "min_level": "advanced",
+        "note": "Financial modeling, complex analysis"
+      },
+      "Requirements Gathering": {
+        "importance": 0.85,
+        "min_level": "intermediate",
+        "note": "Understand and document business requirements"
+      },
+      "Process Modeling": {
+        "importance": 0.75,
+        "min_level": "intermediate",
+        "note": "Flowcharts, BPMN, process optimization"
+      },
+      "Presentation Skills": {
+        "importance": 0.80,
+        "min_level": "advanced",
+        "note": "Present findings to stakeholders"
+      },
+      "Domain Knowledge": {
+        "importance": 0.70,
+        "min_level": "beginner",
+        "note": "Understanding of business domain (BFSI, retail, etc.)"
+      }
+    },
+    "certifications": [
+      {
+        "name": "CBAP - Certified Business Analysis Professional",
+        "provider": "IIBA",
+        "cost": "₹30,000-40,000",
+        "duration": "6 months",
+        "value": "Medium-High"
+      }
+    ]
+  }
+}

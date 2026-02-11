@@ -1,0 +1,247 @@
+{
+  "SQL": {
+    "category": "Technical",
+    "description": "Database query language for data extraction and manipulation",
+    "resources": [
+      {
+        "name": "SQLBolt",
+        "type": "Interactive Tutorial",
+        "url": "https://sqlbolt.com",
+        "cost": "Free",
+        "duration": "2-3 weeks"
+      },
+      {
+        "name": "Mode Analytics SQL Tutorial",
+        "type": "Tutorial",
+        "url": "https://mode.com/sql-tutorial",
+        "cost": "Free",
+        "duration": "3-4 weeks"
+      },
+      {
+        "name": "HackerRank SQL",
+        "type": "Practice Platform",
+        "url": "https://www.hackerrank.com/domains/sql",
+        "cost": "Free",
+        "duration": "Ongoing practice"
+      }
+    ],
+    "practice_tips": "Solve at least 50 SQL problems on HackerRank/LeetCode. Practice window functions, JOINs, and subqueries extensively."
+  },
+  "Python": {
+    "category": "Programming",
+    "description": "Versatile programming language for data analysis, web development, and automation",
+    "resources": [
+      {
+        "name": "Python for Everybody",
+        "type": "Course",
+        "url": "https://www.coursera.org/specializations/python",
+        "cost": "Free to audit",
+        "duration": "8 weeks"
+      },
+      {
+        "name": "Automate the Boring Stuff",
+        "type": "Book + Online",
+        "url": "https://automatetheboringstuff.com",
+        "cost": "Free online",
+        "duration": "4-6 weeks"
+      },
+      {
+        "name": "DataCamp Python Track",
+        "type": "Interactive Course",
+        "url": "https://www.datacamp.com",
+        "cost": "₹800/month",
+        "duration": "3-4 months"
+      }
+    ],
+    "practice_tips": "Focus on Pandas, NumPy for data analysis. Build 3-5 projects. Practice on real datasets from Kaggle."
+  },
+  "Excel": {
+    "category": "Technical",
+    "description": "Spreadsheet software for data analysis and visualization",
+    "resources": [
+      {
+        "name": "Excel Skills for Business",
+        "type": "Coursera Course",
+        "url": "https://www.coursera.org/specializations/excel",
+        "cost": "Free to audit",
+        "duration": "6 months"
+      },
+      {
+        "name": "Chandoo.org",
+        "type": "Blog + Tutorials",
+        "url": "https://chandoo.org",
+        "cost": "Free basics",
+        "duration": "Self-paced"
+      }
+    ],
+    "practice_tips": "Master pivot tables, VLOOKUP/XLOOKUP, conditional formatting, charts, and basic macros."
+  },
+  "Power BI": {
+    "category": "Business Intelligence",
+    "description": "Microsoft's business intelligence and data visualization tool",
+    "resources": [
+      {
+        "name": "Microsoft Learn Power BI",
+        "type": "Official Tutorial",
+        "url": "https://learn.microsoft.com/power-bi",
+        "cost": "Free",
+        "duration": "6-8 weeks"
+      },
+      {
+        "name": "Guy in a Cube",
+        "type": "YouTube Channel",
+        "url": "https://youtube.com/guyinacube",
+        "cost": "Free",
+        "duration": "Ongoing"
+      },
+      {
+        "name": "Power BI PL-300 Certification",
+        "type": "Certification Prep",
+        "url": "https://learn.microsoft.com/certifications/exams/pl-300",
+        "cost": "₹4,000-6,000 exam",
+        "duration": "3-4 months"
+      }
+    ],
+    "practice_tips": "Create 5+ dashboards using public datasets. Learn DAX formulas and data modeling. Practice storytelling with data."
+  },
+  "Statistics": {
+    "category": "Analytical",
+    "description": "Mathematical methods for data collection, analysis, and interpretation",
+    "resources": [
+      {
+        "name": "Khan Academy Statistics",
+        "type": "Video Tutorials",
+        "url": "https://www.khanacademy.org/math/statistics-probability",
+        "cost": "Free",
+        "duration": "8-10 weeks"
+      },
+      {
+        "name": "StatQuest YouTube",
+        "type": "Video Explanations",
+        "url": "https://youtube.com/statquest",
+        "cost": "Free",
+        "duration": "Ongoing"
+      },
+      {
+        "name": "Statistics with Python",
+        "type": "Coursera",
+        "url": "https://www.coursera.org/specializations/statistics-with-python",
+        "cost": "Free to audit",
+        "duration": "3 months"
+      }
+    ],
+    "practice_tips": "Understand hypothesis testing, regression, correlation. Apply to real business problems."
+  },
+  "Tableau": {
+    "category": "Business Intelligence",
+    "description": "Data visualization and business intelligence platform",
+    "resources": [
+      {
+        "name": "Tableau Public Gallery",
+        "type": "Examples + Free Tool",
+        "url": "https://public.tableau.com",
+        "cost": "Free",
+        "duration": "Ongoing"
+      },
+      {
+        "name": "Tableau Learning",
+        "type": "Official Training",
+        "url": "https://www.tableau.com/learn/training",
+        "cost": "Free basics",
+        "duration": "4-6 weeks"
+      }
+    ],
+    "practice_tips": "Publish 3+ dashboards to Tableau Public. Focus on interactive visualizations."
+  },
+  "Data Structures & Algorithms": {
+    "category": "Computer Science",
+    "description": "Fundamental concepts for efficient programming and problem-solving",
+    "resources": [
+      {
+        "name": "LeetCode",
+        "type": "Practice Platform",
+        "url": "https://leetcode.com",
+        "cost": "Free (Premium optional)",
+        "duration": "3-6 months daily practice"
+      },
+      {
+        "name": "Striver's A2Z DSA Sheet",
+        "type": "Curated Problems",
+        "url": "https://takeuforward.org/strivers-a2z-dsa-course",
+        "cost": "Free",
+        "duration": "4-6 months"
+      },
+      {
+        "name": "Abdul Bari YouTube",
+        "type": "Video Lectures",
+        "url": "https://youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O",
+        "cost": "Free",
+        "duration": "Self-paced"
+      }
+    ],
+    "practice_tips": "Solve 200+ problems. Focus on arrays, strings, trees, graphs, DP. Practice for interviews."
+  },
+  "Git/Version Control": {
+    "category": "Development Tools",
+    "description": "Version control system for tracking code changes",
+    "resources": [
+      {
+        "name": "Git & GitHub for Beginners",
+        "type": "YouTube Course",
+        "url": "https://youtube.com/watch?v=RGOj5yH7evk",
+        "cost": "Free",
+        "duration": "1 day"
+      },
+      {
+        "name": "GitHub Learning Lab",
+        "type": "Interactive",
+        "url": "https://lab.github.com",
+        "cost": "Free",
+        "duration": "1-2 weeks"
+      }
+    ],
+    "practice_tips": "Use Git for all projects. Practice branching, merging, pull requests. Contribute to open source."
+  },
+  "Communication": {
+    "category": "Soft Skills",
+    "description": "Effective verbal and written communication",
+    "resources": [
+      {
+        "name": "LinkedIn Learning Communication",
+        "type": "Video Courses",
+        "url": "https://linkedin.com/learning",
+        "cost": "Free trial, then ₹1,500/month",
+        "duration": "Ongoing"
+      },
+      {
+        "name": "Toastmasters International",
+        "type": "Practice Club",
+        "url": "https://www.toastmasters.org",
+        "cost": "₹5,000-8,000/year",
+        "duration": "Ongoing practice"
+      }
+    ],
+    "practice_tips": "Practice presentations. Write clearly and concisely. Join discussion groups."
+  },
+  "Google Analytics": {
+    "category": "Marketing Analytics",
+    "description": "Web analytics tool for tracking website performance",
+    "resources": [
+      {
+        "name": "Google Analytics Academy",
+        "type": "Official Course",
+        "url": "https://analytics.google.com/analytics/academy",
+        "cost": "Free",
+        "duration": "4-6 weeks"
+      },
+      {
+        "name": "Google Analytics Certification",
+        "type": "Certification",
+        "url": "https://skillshop.exceedlms.com/student/path/2938",
+        "cost": "Free",
+        "duration": "20-30 hours"
+      }
+    ],
+    "practice_tips": "Set up GA on a personal website or practice site. Analyze real data and create reports."
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "Data Analyst": {
+    "base_salary": 350000,
+    "notes": "Based on average fresher Data Analyst salaries in India (2024-2025)",
+    "by_experience": {
+      "fresher": {
+        "tier1": "3.0-4.5 LPA",
+        "tier2": "2.5-3.5 LPA",
+        "tier3": "2.0-3.0 LPA"
+      },
+      "1-2": {
+        "tier1": "4.5-6.5 LPA",
+        "tier2": "3.5-5.0 LPA",
+        "tier3": "3.0-4.5 LPA"
+      },
+      "3-5": {
+        "tier1": "7.0-12.0 LPA",
+        "tier2": "5.5-9.0 LPA",
+        "tier3": "4.5-7.0 LPA"
+      },
+      "5+": {
+        "tier1": "12.0-20.0 LPA",
+        "tier2": "9.0-15.0 LPA",
+        "tier3": "7.0-12.0 LPA"
+      }
+    },
+    "top_companies": ["Amazon", "Flipkart", "Mu Sigma", "ZS Associates", "Fractal Analytics"]
+  },
+  "Software Engineer": {
+    "base_salary": 450000,
+    "notes": "Based on average fresher SDE salaries in India",
+    "by_experience": {
+      "fresher": {
+        "tier1": "4.0-7.0 LPA",
+        "tier2": "3.5-5.5 LPA",
+        "tier3": "3.0-4.5 LPA"
+      },
+      "1-2": {
+        "tier1": "6.0-10.0 LPA",
+        "tier2": "5.0-8.0 LPA",
+        "tier3": "4.0-6.5 LPA"
+      },
+      "3-5": {
+        "tier1": "10.0-20.0 LPA",
+        "tier2": "8.0-15.0 LPA",
+        "tier3": "6.5-12.0 LPA"
+      },
+      "5+": {
+        "tier1": "18.0-35.0 LPA",
+        "tier2": "14.0-25.0 LPA",
+        "tier3": "10.0-20.0 LPA"
+      }
+    },
+    "top_companies": ["Google", "Microsoft", "Amazon", "Flipkart", "Zomato", "Swiggy"]
+  },
+  "Product Manager": {
+    "base_salary": 800000,
+    "notes": "PM roles typically require 2+ years experience, fresher PM roles are rare",
+    "by_experience": {
+      "fresher": {
+        "tier1": "6.0-10.0 LPA",
+        "tier2": "5.0-8.0 LPA",
+        "tier3": "4.0-6.5 LPA"
+      },
+      "1-2": {
+        "tier1": "10.0-15.0 LPA",
+        "tier2": "8.0-12.0 LPA",
+        "tier3": "6.5-10.0 LPA"
+      },
+      "3-5": {
+        "tier1": "15.0-30.0 LPA",
+        "tier2": "12.0-22.0 LPA",
+        "tier3": "10.0-18.0 LPA"
+      },
+      "5+": {
+        "tier1": "25.0-50.0 LPA",
+        "tier2": "20.0-40.0 LPA",
+        "tier3": "15.0-30.0 LPA"
+      }
+    },
+    "top_companies": ["Google", "Amazon", "Flipkart", "Paytm", "PhonePe"]
+  },
+  "Digital Marketing Specialist": {
+    "base_salary": 300000,
+    "notes": "Entry-level digital marketing salaries in India",
+    "by_experience": {
+      "fresher": {
+        "tier1": "2.5-4.0 LPA",
+        "tier2": "2.0-3.5 LPA",
+        "tier3": "1.8-3.0 LPA"
+      },
+      "1-2": {
+        "tier1": "4.0-6.0 LPA",
+        "tier2": "3.5-5.0 LPA",
+        "tier3": "3.0-4.5 LPA"
+      },
+      "3-5": {
+        "tier1": "6.0-12.0 LPA",
+        "tier2": "5.0-9.0 LPA",
+        "tier3": "4.0-7.5 LPA"
+      },
+      "5+": {
+        "tier1": "10.0-18.0 LPA",
+        "tier2": "8.0-14.0 LPA",
+        "tier3": "6.5-11.0 LPA"
+      }
+    },
+    "top_companies": ["WPP", "Dentsu", "Publicis", "Growth Natives", "WebEngage"]
+  },
+  "Business Analyst": {
+    "base_salary": 400000,
+    "notes": "BA salaries in consulting and IT services",
+    "by_experience": {
+      "fresher": {
+        "tier1": "3.5-5.5 LPA",
+        "tier2": "3.0-4.5 LPA",
+        "tier3": "2.5-4.0 LPA"
+      },
+      "1-2": {
+        "tier1": "5.5-8.0 LPA",
+        "tier2": "4.5-6.5 LPA",
+        "tier3": "4.0-5.5 LPA"
+      },
+      "3-5": {
+        "tier1": "8.0-15.0 LPA",
+        "tier2": "6.5-12.0 LPA",
+        "tier3": "5.5-10.0 LPA"
+      },
+      "5+": {
+        "tier1": "14.0-25.0 LPA",
+        "tier2": "11.0-20.0 LPA",
+        "tier3": "9.0-16.0 LPA"
+      }
+    },
+    "top_companies": ["Deloitte", "EY", "PwC", "Accenture", "Capgemini"]
+  }
+}
